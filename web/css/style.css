@@ -1,0 +1,107 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol {margin: 0; padding:0;}
+p {margin: 0;}
+html, body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+	background: #483e52;
+	margin:0;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	text-decoration:none;
+}
+.row{
+	margin:0;
+}	
+/*----*/
+.clock-main{
+	padding:6em 0em 2em 0;
+}
+.clock-main h1{
+	color:#fff;
+	text-align:center;
+	font-size:2.5em;
+	font-weight:300;
+}
+
+/*--timer--*/
+.timer {
+    text-align: center;
+	padding:2em;
+	margin-top:1.5em;
+}
+.clck-btns{
+	text-align:center;
+	margin-top:0.5em;
+}
+.clck-btns a{
+	text-decoration: none;
+    color: #ff1744;
+    font-size: 1em;
+    display: inline-block;
+   margin:0 18px;
+}	
+.copywrite{
+	text-align:center;
+	margin-top:7em;
+}
+.copywrite p{
+	color:#fff;
+	font-size:1em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.copywrite p a{
+	color:#fff;
+}
+/*--responsive--*/
+@media (max-width: 640px){
+.clock-main h1 {
+    font-size: 2em;
+}
+}
+@media (max-width: 480px){
+.clock-main h1 {
+    font-size: 1.6em;
+}
+.copywrite {
+    margin-top: 5em;
+}
+.copywrite p{
+	font-size:0.9em;
+	padding:0 1em;
+}
+}
+@media (max-width: 320px){
+.clock-main {
+    padding: 3em 0em 2em 0;
+}
+.clock-main h1 {
+    font-size: 1.4em;
+    line-height: 1.3em;
+}
+.timer {
+    padding: 2em 0;
+	margin-top:0;
+}
+.copywrite {
+    margin-top: 2em;
+}
+.copywrite p{
+	font-size:0.85em;
+	padding:0 0.5em;
+}
+}.leftpanel {
+
+}

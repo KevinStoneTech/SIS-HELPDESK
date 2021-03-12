@@ -1,0 +1,38 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.1.min.js"></script>
+<!--themestyle-->
+<script src="js/jClocksGMT.js"></script>
+<script src="js/jquery.rotate.js"></script>
+<link rel="stylesheet" href="css/jClocksGMT.css">
+<script>
+            $(document).ready(function(){
+                $('#clock_hou').jClocksGMT({offset: '0', hour24: true});
+                $('#clock_dc').jClocksGMT({offset: '0', digital: true});
+                $('#clock_brasil').jClocksGMT({offset: '+9'});
+            });
+        </script>
+<!--timer-->	
+</head>
+<body>
+<!-- banner -->
+<div class="clock-main">	
+	<div class="timer">
+		<div id="clock_brasil" class="clock_container">            
+			<div class="digital">
+				<span class="hr"></span><span class="minute"></span> <span class="period"></span>
+			</div>
+			<div class="clockHolder">
+				<div class="rotatingWrapper"><img class="hour" src="images/clock_hour.png" alt=""/></div>
+				<div class="rotatingWrapper"><img class="min" src="images/clock_min.png" alt=""/></div>
+				<div class="rotatingWrapper"><img class="sec" src="images/clock_sec.png" alt=""/></div>
+				<img class="clock" src="images/clock.png" alt=""/> 
+			</div>             
+		</div>
+	</div> 	
+</div>
+</body>
+</html>
